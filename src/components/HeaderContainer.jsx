@@ -1,12 +1,12 @@
-const HeaderComponent = () => {
+const HeaderContainer = () => {
     return (
-         <>
-            <header>
+        <>
+            <section id="headerContainer">
                 <h1>Student Directory</h1>
-                <p>Manage and display student information.</p>
-            </header>
+                <small>Show list of students.</small>
+            </section>
         </>
-    )    
+    )
 }
 
-export default HeaderComponent;
+export default HeaderContainer;
